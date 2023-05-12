@@ -1,0 +1,42 @@
+{
+  "files": {
+    "main.css": "/technology-article/static/css/main.e9b34ce0.css",
+    "main.js": "/technology-article/static/js/main.c3464587.js",
+    "static/media/technology3.jpg": "/technology-article/static/media/technology3.9b98cd353e34bab8b567.jpg",
+    "static/media/sidebar.jpg": "/technology-article/static/media/sidebar.5c219576413ed0d67653.jpg",
+    "static/media/read2.jpg": "/technology-article/static/media/read2.8539ca8f60ef7188d551.jpg",
+    "static/media/software1.jpg": "/technology-article/static/media/software1.b94b5aa563ed5990900a.jpg",
+    "static/media/app2.jpg": "/technology-article/static/media/app2.38f98c7c83d59b1d2383.jpg",
+    "static/media/editor3.jpg": "/technology-article/static/media/editor3.11655028f7b4b1a98a4a.jpg",
+    "static/media/technology2.jpg": "/technology-article/static/media/technology2.32f57a4ff95ef912b33d.jpg",
+    "static/media/techReviews1.jpg": "/technology-article/static/media/techReviews1.fbb1e5326caddc6222da.jpg",
+    "static/media/software2.jpg": "/technology-article/static/media/software2.00598dc1d1fe1ce28f92.jpg",
+    "static/media/gadgets1.jpg": "/technology-article/static/media/gadgets1.d6f620cdc6b06ecb1ed4.jpg",
+    "static/media/software3.jpg": "/technology-article/static/media/software3.99d2eafc18c8982508aa.jpg",
+    "static/media/techReviews2.jpg": "/technology-article/static/media/techReviews2.ccb89e3d28177b8c18bf.jpg",
+    "static/media/games2.jpg": "/technology-article/static/media/games2.83d9920c581cd0ffe0dc.jpg",
+    "static/media/editor2.jpg": "/technology-article/static/media/editor2.a5ea21e0261d3f6f502c.jpg",
+    "static/media/top.jpg": "/technology-article/static/media/top.4b97f6b3477a3446e888.jpg",
+    "static/media/ad.jpg": "/technology-article/static/media/ad.b92add3793bfd6974675.jpg",
+    "static/media/games1.jpg": "/technology-article/static/media/games1.fec0a8c4bb1e7ad96674.jpg",
+    "static/media/app1.jpg": "/technology-article/static/media/app1.076e47c0c75854029370.jpg",
+    "static/media/technology1.jpg": "/technology-article/static/media/technology1.7bfeb8ed9dcf4da208e1.jpg",
+    "static/media/gadgets3.jpg": "/technology-article/static/media/gadgets3.b583491923384a430975.jpg",
+    "static/media/gadgets2.jpg": "/technology-article/static/media/gadgets2.c0236c70f3e8a1fe93ac.jpg",
+    "static/media/techReviews3.jpg": "/technology-article/static/media/techReviews3.4a628c59f6b45aa7077a.jpg",
+    "static/media/read1.jpg": "/technology-article/static/media/read1.d5aa47bbc12e8297c08f.jpg",
+    "static/media/app3.jpg": "/technology-article/static/media/app3.385384473854e06211d8.jpg",
+    "static/media/editor1.jpg": "/technology-article/static/media/editor1.65152de9aa0726de75fc.jpg",
+    "static/media/logo.svg": "/technology-article/static/media/logo.910726b0b3b21b98737574ba8fefa82a.svg",
+    "static/media/small-logo.svg": "/technology-article/static/media/small-logo.910726b0b3b21b98737574ba8fefa82a.svg",
+    "static/media/close.svg": "/technology-article/static/media/close.664c491ca81abf8310566bb5514699f4.svg",
+    "index.html": "/technology-article/index.html",
+    "static/media/bars.svg": "/technology-article/static/media/bars.9d9982080273501bce2dbcb1823ecead.svg",
+    "main.e9b34ce0.css.map": "/technology-article/static/css/main.e9b34ce0.css.map",
+    "main.c3464587.js.map": "/technology-article/static/js/main.c3464587.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e9b34ce0.css",
+    "static/js/main.c3464587.js"
+  ]
+}

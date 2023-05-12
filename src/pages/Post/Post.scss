@@ -1,0 +1,149 @@
+@import "../../App.scss";
+
+.post {
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 20px;
+  margin-top: 64px;
+  margin-bottom: 64px;
+
+  @media screen and (max-width: 992px) {
+    padding: 0;
+  }
+
+  .post-content {
+    background: #fff;
+    margin: 32px 0 0;
+    padding: 55px 40px;
+
+    .post-image {
+      img {
+        width: 100%;
+      }
+      margin-bottom: 10px;
+    }
+
+    .post-title,
+    .post-title-small {
+      font-weight: 700;
+    }
+
+    .post-title {
+      font-size: $font-size-5;
+    }
+
+    .post-title-small {
+      font-size: $font-size-4;
+    }
+
+    .action {
+      margin-bottom: 32px;
+
+      .toCategory a,
+      .toComment {
+        color: $text;
+        font-size: $font-size-2;
+
+        &:hover {
+          color: $primary-color;
+        }
+      }
+    }
+
+    .big-heading {
+      font-weight: 700;
+    }
+
+    .small-heading {
+      font-weight: 700;
+    }
+
+    .section-category {
+      font-size: 30px;
+      font-weight: 700;
+      margin-bottom: 20px;
+    }
+  }
+
+  .other-post {
+    display: flex;
+    padding: 2rem 3rem 0;
+
+    .previous,
+    .next {
+      flex: auto;
+      padding: 0 1.5rem;
+      cursor: pointer;
+
+      &:hover {
+        color: $primary-color;
+      }
+    }
+
+    .previous {
+      text-align: left;
+    }
+
+    .next {
+      text-align: right;
+    }
+  }
+
+  .comment {
+    .note {
+      color: $hover-text;
+      margin-bottom: 24px;
+    }
+
+    form {
+      .input-group {
+        display: flex;
+        justify-content: space-between;
+
+        .text-input {
+          width: 30%;
+        }
+      }
+
+      .separate-col {
+        .save-account {
+          margin-bottom: 16px;
+
+          label {
+            display: inline;
+            margin-left: 15px;
+            color: $hover-text;
+          }
+        }
+      }
+
+      @media screen and (max-width: 992px) and (min-width: 576px) {
+        display: flex;
+        gap: 20px;
+
+        .input-group {
+          flex: 1;
+          flex-direction: column;
+
+          .text-input {
+            width: 100%;
+          }
+        }
+        .separate-col {
+          flex: 1;
+        }
+      }
+
+      @media screen and (max-width: 576px) {
+        .input-group {
+          flex-direction: column;
+
+          .text-input {
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+}

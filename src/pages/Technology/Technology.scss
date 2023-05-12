@@ -1,0 +1,30 @@
+@import "../../App.scss";
+
+.technology-page {
+  .page-title {
+    font-size: 50px;
+    padding: 90px 0 40px 50px;
+    font-weight: bold;
+    text-transform: capitalize;
+    border-bottom: 1px solid #c9c9c9;
+    margin-bottom: 40px;
+  }
+
+  .page-content {
+    article {
+      border-bottom: 1px solid #c9c9c9;
+      margin-bottom: 70px;
+
+      .read-more {
+        display: inline-block;
+        padding: 25px 0;
+        cursor: pointer;
+        transition: all 0.3s;
+
+        &:hover {
+          color: $primary-color;
+        }
+      }
+    }
+  }
+}

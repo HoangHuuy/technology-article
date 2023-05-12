@@ -1,0 +1,10 @@
+@import "../App.scss";
+
+.layout {
+  background-color: $background-color;
+  min-height: 100vh;
+
+  main {
+    padding-top: 24px;
+  }
+}

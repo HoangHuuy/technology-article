@@ -1,0 +1,90 @@
+@import "../../App";
+
+#footer {
+  width: 100%;
+  overflow: hidden;
+
+  .sign-up {
+    background-image: linear-gradient(
+        to right,
+        rgba(142, 251, 218, 0.64),
+        rgba(142, 251, 218, 0.64)
+      ),
+      url(https://websitedemos.net/tech-news-04/wp-content/uploads/sites/903/2021/07/tech-news-cta-gradient-bg-green.svg);
+    min-height: 60px;
+    padding: 65px 74.5px;
+
+    @media screen and (max-width: 992px) {
+      padding: 40px 32px;
+    }
+
+    .label {
+      color: $text;
+      font-size: 40px;
+      font-weight: 700;
+    }
+    .text {
+      color: $hover-text;
+      font-size: $font-size-2;
+
+      @media screen and (max-width: 992px) {
+        margin-bottom: 20px;
+      }
+    }
+
+    form {
+      height: 100%;
+      display: flex;
+      align-items: center;
+
+      .sign-up-input {
+        flex: 3;
+        margin-right: 10px;
+      }
+
+      .sign-up-button {
+        flex: 1;
+      }
+
+      @media screen and (max-width: 768px) {
+        display: block;
+
+        .sign-up-input {
+          margin-bottom: 15px;
+        }
+      }
+    }
+  }
+
+  .footer-nav {
+    padding: 70px 74.5px 90px;
+    .footer-nav-item {
+      margin-bottom: 20px;
+
+      .social-network {
+        color: #805aed;
+
+        svg {
+          display: inline-block;
+          margin-right: 15px;
+          cursor: pointer;
+        }
+      }
+
+      .footer-title {
+        font-size: $font-size-3;
+        font-weight: 700;
+        margin-bottom: 20px;
+      }
+
+      ul li {
+        color: $hover-text;
+        cursor: pointer;
+      }
+
+      @media screen and (max-width: 768px) {
+        text-align: center;
+      }
+    }
+  }
+}
